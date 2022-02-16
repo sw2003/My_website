@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+    height: 125vh;
+}
+
+nav{
+    width: 100%;
+    height: 10vh;
+    border-bottom: 1px solid rgb(240, 236, 236);
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.name-logo{
+    font-family: 'Rubik', sans-serif;}
+
+.link-container{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.link-container a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+}
+
+.project-container{
+    width: 100%;
+    height: 100vh;
+}
+
+.project-title-container{
+    width: 100%;
+    height: 20%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-container-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+
+.project-container-child div{
+    position: relative;
+    height: 75%;
+    width: 50%;
+    background-color: white;
+    border: solid rgb(218, 209, 209) 3px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.project-container-child div h1{
+    width: 100%;
+    height: 20%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.project-container-child div p{
+    position: absolute;
+    width: 90%;
+    top: 30px;
+}
+
+
+
+
+
+
+footer{
+    width: 100%;
+    height: 25vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border-top: solid 5px rgb(240, 236, 236);
+}
+
+.footer-container{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.footer-links ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.footer-links a{
+    color: black;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.social-links-container{
+    width: 70%;
+    height: 100%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links-container img{
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
